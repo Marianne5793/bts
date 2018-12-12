@@ -19,6 +19,11 @@ public abstract class Bestiole implements IBestiole {
 		this.numero= ++ compteur ;
 	}
 	
+	public void alain() {
+		this.couleur = getCouleurVivant ();
+		System.out.println("Alain est bien vivant");
+	}
+	
 	@Override
 	public Couleur getCouleur() {
 		return couleur;
