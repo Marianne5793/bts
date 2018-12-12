@@ -19,6 +19,7 @@ public abstract class Bestiole implements IBestiole {
 		this.numero= ++ compteur ;
 	}
 	
+	
 	@Override
 	public Couleur getCouleur() {
 		return couleur;
