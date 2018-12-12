@@ -24,6 +24,11 @@ public abstract class Bestiole implements IBestiole {
 		return couleur;
 	}
 	
+	public void alain() {
+		this.couleur = getCouleurVivant ();
+		System.out.println("Alain est bien vivant");
+	}
+	
 	@Override
 	public boolean isVivante() {
 		return vivante;

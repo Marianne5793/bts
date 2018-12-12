@@ -17,7 +17,6 @@ public class HauteMer extends Ocean {
 
 	private static final int NB_LIGNES = 55;
 	private static final int NB_COLONNES = 60;
-
 	
 	protected void remplirDeLignesEau() {
 		for (int i = 0; i < NB_LIGNES; i++) {
